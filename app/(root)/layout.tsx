@@ -22,7 +22,7 @@ export default async function DashboardLayout({
   // Render the layout, including the Navbar and the children components
   return (
     <>
-      <Navbar /> {/* Render the Navbar component */}
+      <Navbar />
       {children} {/* Render the children components within the layout */}
     </>
   );
